@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,300');
+
+@import "normalize";
+@import "theme-colors";
+@import "table";
+@import "form";
+@import "pagination";
+
+$row-spacing: 20px;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: theme-color('primary');
+}
+
+.row {
+  margin: $row-spacing 0;
+  overflow: hidden;
+
+  .container {
+    padding: 0 $row-spacing;
+  }
+}

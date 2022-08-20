@@ -1,0 +1,32 @@
+// Tables
+
+$table-cell-spacing: 12px;
+$col-wide-width: 1000px;
+$color-form-highlight: #eaeaea;
+
+.table {
+  width: 100%;
+
+  th, td {
+    padding: $table-cell-spacing;
+
+    &.col-wide {
+      min-width: $col-wide-width;
+    }
+  }
+
+  thead {
+    text-align: left;
+    background: theme-color('primary');
+    color: theme-color('light');
+  }
+
+  tbody {
+    tr {
+      &:nth-of-type(odd) {
+        background: theme-color('muted');
+      }
+    }
+  }
+}
+

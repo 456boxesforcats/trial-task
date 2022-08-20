@@ -1,0 +1,16 @@
+// Pagination
+
+.pagination {
+  &--item {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid theme-color('muted');
+    display: inline-block;
+    margin: 0 5px 10px 0;
+
+    &.item-active {
+      background-color: theme-color('primary');
+      color: theme-color('light')
+    }
+  }
+}

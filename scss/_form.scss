@@ -1,0 +1,19 @@
+// Forms
+
+.form {
+  .fom-group {
+    display: inline-block;
+    margin: 0 10px 20px 10px;
+  }
+
+  input, select {
+    padding: 5px 10px;
+    min-width: 200px;
+  }
+
+  input[type="submit"] {
+    background: theme-color('primary');
+    color: theme-color('light');
+    border: 2px solid theme-color('primary');
+  }
+}

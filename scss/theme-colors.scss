@@ -1,0 +1,11 @@
+// Theme colors
+
+$theme-colors: (
+        'primary': #445162,
+        'light': #fff,
+        'muted': #f5f5f5,
+);
+
+@function theme-color($key: "primary") {
+  @return map-get($theme-colors, $key);
+}
